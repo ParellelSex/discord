@@ -2,7 +2,7 @@ from PIL import Image, ImageFont, ImageDraw, ImageEnhance
 import web
 
 urls = (
-    '/(.*)', 'test'
+    '/(.*)', ''
 )
 app = web.application(urls, globals())
 
